@@ -1,0 +1,12 @@
+<div id="gitalk-container"></div>
+var gitalk = new Gitalk({
+    clientID: 'eef8ed87a696d85079b4',
+    clientSecret: 'ff302d50cb239e265be7148f9e2862a74bc5b3c2
+ ',
+    repo: 'thevisionck.github.io',
+    owner: 'thevisionck',
+    admin: ['thevisionck'],
+    id: location.pathname,
+    distractionFreeMode: false
+})
+
